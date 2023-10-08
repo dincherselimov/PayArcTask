@@ -1,0 +1,1500 @@
+{
+    "DT": {
+        "Entry Run Number": [
+            "8",
+            "6"
+        ],
+        "Sequence Number (w\/i the entry run)": [
+            "14",
+            "4"
+        ],
+        "Record Identifier (DT)": [
+            "18",
+            "2"
+        ],
+        "Merchant Account Number": [
+            "20",
+            "16"
+        ],
+        "Transaction Code": [
+            "36",
+            "4"
+        ],
+        "Association Number": [
+            "40",
+            "6"
+        ],
+        "Reference Number": [
+            "46",
+            "23"
+        ],
+        "Transaction Date (MMDDCCYY)": [
+            "69",
+            "8"
+        ],
+        "Transaction Amount": [
+            "77",
+            "11"
+        ],
+        "Batch Julian Date (DDDYY)": [
+            "88",
+            "5"
+        ],
+        "Net Deposit": [
+            "93",
+            "15"
+        ],
+        "Cardholder Account Number": [
+            "108",
+            "19"
+        ],
+        "Best Interchange Eligible": [
+            "127",
+            "2"
+        ],
+        "Transaction Data Condition Code": [
+            "129",
+            "2"
+        ],
+        "Downgrade Reason 1": [
+            "131",
+            "4"
+        ],
+        "Downgrade Reason 2": [
+            "135",
+            "4"
+        ],
+        "Downgrade Reason 3": [
+            "139",
+            "10"
+        ],
+        "Online Entry": [
+            "149",
+            "1"
+        ],
+        "ACH Flag": [
+            "150",
+            "1"
+        ],
+        "AUTH Source": [
+            "151",
+            "1"
+        ],
+        "Cardholder I\/D Method": [
+            "152",
+            "1"
+        ],
+        "CAT Indicator": [
+            "153",
+            "1"
+        ],
+        "Reimbursement Attribute": [
+            "154",
+            "1"
+        ],
+        "Mail Order\/Telephone Order Indicator": [
+            "155",
+            "1"
+        ],
+        "ACI (AUTH CHAR IND)": [
+            "156",
+            "1"
+        ],
+        "Draft A Flag Possible value: Y \/ N": [
+            "172",
+            "1"
+        ],
+        "AUTH Currency Code": [
+            "173",
+            "3"
+        ],
+        "AUTH Amount": [
+            "176",
+            "12"
+        ],
+        "Validation Code": [
+            "188",
+            "4"
+        ],
+        "AUTH Response Code": [
+            "192",
+            "2"
+        ],
+        "Network Identifier - Debit": [
+            "194",
+            "3"
+        ],
+        "Switch Settled Indicator": [
+            "197",
+            "1"
+        ],
+        "POS Entry Mode": [
+            "198",
+            "2"
+        ],
+        "Debit\/Credit Indicator": [
+            "404",
+            "1"
+        ],
+        "Reversal Flag": [
+            "201",
+            "1"
+        ],
+        "Merchant Name": [
+            "202",
+            "25"
+        ],
+        "Authorization Number": [
+            "227",
+            "6"
+        ],
+        "Reject Reason": [
+            "233",
+            "4"
+        ],
+        "Card Type": [
+            "237",
+            "2"
+        ],
+        "Currency Code": [
+            "239",
+            "3"
+        ],
+        "Original Transaction Amount": [
+            "242",
+            "11"
+        ],
+        "Foreign Card Indicator": [
+            "253",
+            "1"
+        ],
+        "Carryover Indicator": [
+            "254",
+            "1"
+        ],
+        "Extension Record Indicator": [
+            "255",
+            "2"
+        ],
+        "MCC Code": [
+            "257",
+            "4"
+        ],
+        "Terminal ID": [
+            "261",
+            "8"
+        ],
+        "Discover POS Entry Mode": [
+            "269",
+            "3"
+        ],
+        "Purchase ID": [
+            "272",
+            "25"
+        ],
+        "Cash Back Amount (MC)": [
+            "297",
+            "9"
+        ],
+        "Cash Back Amount Sign +\/- (MC)": [
+            "306",
+            "1"
+        ],
+        "POS Data Code": [
+            "307",
+            "13"
+        ],
+        "Program Registration ID": [
+            "320",
+            "3"
+        ],
+        "Card type": [
+            "323",
+            "3"
+        ],
+        "Product ID": [
+            "326",
+            "2"
+        ],
+        "Submitted Interchange": [
+            "328",
+            "5"
+        ],
+        "System Trace Audit Number": [
+            "333",
+            "6"
+        ],
+        "Discover Transaction Type\nSA - RT - CA - RS - RC - RR -\nCard Sale Credit Cash Advance Card Sale Rev Cash Advance Rev Credit Rev": [
+            "339",
+            "2"
+        ],
+        "Local Transaction Time": [
+            "341",
+            "6"
+        ],
+        "Discover Processing Code": [
+            "347",
+            "6"
+        ],
+        "Commercial Card Service Indicator (CCS)\nPossible values:\nA- GSA IGOTS B- GSA Large-Ticket C- Both GSA Large-Ticket and GSA IGOTS D- Fleet E- Fleet and GSA IGOTS F- Fleet and GSA Large-Ticket G- Fleet, GSA IGOTS, and GSA Large-Ticket H- Large Ticket I- Fleet and Large-Ticket J- Visa Distribution": [
+            "353",
+            "1"
+        ],
+        "Mastercard Cross Border Visa ISA ASSM Fee Amount AMEX Inbound Fee": [
+            "354",
+            "9"
+        ],
+        "Space - 1 -\n2 - 5 -\nno fee applied\nMastercard Cross Border Domestic Currency\nMastercard Cross Border Foreign Currency\nAMEX Inbound Fee": [
+            "363",
+            "1"
+        ],
+        "DCC Indicator\nPossible values:\n1 - DCC performed\nSpace - DCC not performed or not applicable": [
+            "364",
+            "1"
+        ],
+        "Regulated Indicator\nPossible values:\nVisa\nY-\nBlank or N -\nMastercard\nB- 1-\nBlank or N -\nDiscover\n1-\n2-\nBlank or Zero -\nVisa Regulated Debit Fee Transaction with Fraud Prevention Adjustment\nVisa Non-Regulated Transaction\nMastercard Regulated Debit Fee Transaction\nMastercard Regulated Debit Fee Transaction & eligible for Fraud Prevention Adjustment\nMastercard Non-Regulated Transaction\nDiscover Non-Exempt Transaction with Fraud Prevention Adjustment\nDiscover Non-Exempt Transaction\nDiscover Exempt Transaction (Non-Regulated)": [
+            "365",
+            "1"
+        ],
+        "Visa Integrity Fee": [
+            "366",
+            "9"
+        ],
+        "IASF Fee Type\nPossible values:\n01 - 02 - 03 - 04 - 05 - 06 - 07 - 08 - 09 - 10 - 11 - 12 - Space -\nCanada Multi-currency purchase Canada Single currency purchase Canada Multi-currency cash Canada Single -currency cash US Single currency purchase\nUS Single currency cash US Multi-currency purchase US Multi-currency cash AP Single currency cash AP Single currency purchase AP Multi-currency cash AP Muti-currency purchase No fee": [
+            "375",
+            "2"
+        ],
+        "IASF Fee Amount": [
+            "377",
+            "11"
+        ],
+        "Debit or Credit Indicator": [
+            "388",
+            "1"
+        ],
+        "Adjustment Amount": [
+            "389",
+            "15"
+        ],
+        "Cashback Fee Amount (MC)": [
+            "405",
+            "15"
+        ],
+        "Cashback Fee Sign +\/- (MC)": [
+            "420",
+            "1"
+        ],
+        "Industry SE": [
+            "421",
+            "10"
+        ],
+        "Seller ID": [
+            "431",
+            "20"
+        ],
+        "Seller DBA": [
+            "451",
+            "25"
+        ],
+        "Seller Address": [
+            "476",
+            "25"
+        ],
+        "Seller Phone": [
+            "501",
+            "16"
+        ],
+        "Seller Postal Code": [
+            "517",
+            "10"
+        ],
+        "Seller Email": [
+            "527",
+            "40"
+        ],
+        "MC Lane ID": [
+            "567",
+            "8"
+        ],
+        "Mastercard Transaction Integrity Class\nThis value is assigned by Mastercard and\nshows the safety and security of\nthe transaction and includes the final\nassessment of the validity of the card and the cardholder.\nCard and Cardholder Present:\nA1 - EMV\/Token in a Secure, Trusted Environment B1 - EMV\/Chip Equivalent C1 - Mag Stripe\nE1 - Key Entered U0 - Unclassified\nCard and\/or Cardholder Not Present:\nA2 - Digital Transactions B2 - Authenticated Checkout C2 - Transaction Validation D2 - Enhanced Data\nE2 - Generic Messaging U0 - Unclassified": [
+            "575",
+            "2"
+        ],
+        "TRansaction Identification number": [
+            "157",
+            "15"
+        ]
+    },
+    "P1": {
+        "Entry Run Number": [
+            "8",
+            "6"
+        ],
+        "Sequence Number (w\/i the entry run)": [
+            "14",
+            "4"
+        ],
+        "Record Identifier (P1)": [
+            "18",
+            "2"
+        ],
+        "Merchant Account Number": [
+            "20",
+            "16"
+        ],
+        "Transaction Code": [
+            "36",
+            "4"
+        ],
+        "VAT Tax Amount (Freight)": [
+            "40",
+            "12"
+        ],
+        "VAT Tax Rate (Freight)": [
+            "52",
+            "4"
+        ],
+        "Local Tax (VS, MC, AM)": [
+            "85",
+            "1"
+        ],
+        "Local Tax Amount": [
+            "86",
+            "12"
+        ],
+        "Freight Amount (VS, MC, AM)": [
+            "98",
+            "12"
+        ],
+        "Destination Zip (VS)": [
+            "110",
+            "10"
+        ],
+        "Merchant Type": [
+            "120",
+            "4"
+        ],
+        "Duty Amount (VS, MC, AM)": [
+            "124",
+            "12"
+        ],
+        "Merchant Tax ID": [
+            "136",
+            "10"
+        ],
+        "Ship from Zip Code (VS, MC)": [
+            "146",
+            "10"
+        ],
+        "National Tax Included (VS, MC)": [
+            "156",
+            "1"
+        ],
+        "National\/ALT Tax Amount (VS, MC)": [
+            "157",
+            "12"
+        ],
+        "Other Tax": [
+            "169",
+            "12"
+        ],
+        "Destination Country Code (VS, MC)": [
+            "181",
+            "3"
+        ],
+        "Merchant Reference Number": [
+            "184",
+            "17"
+        ],
+        "Discount Amount": [
+            "201",
+            "12"
+        ],
+        "Merchant VAT Registration": [
+            "213",
+            "20"
+        ],
+        "Customer VAT Registration": [
+            "233",
+            "13"
+        ],
+        "Summary Commodity Code": [
+            "246",
+            "4"
+        ],
+        "VAT Invoice Reference Number": [
+            "250",
+            "15"
+        ],
+        "Order Date": [
+            "265",
+            "6"
+        ],
+        "Detail Record to follow (D)": [
+            "271",
+            "1"
+        ],
+        "reserved for future": [
+            "56",
+            "3"
+        ],
+        "Product Identifier": [
+            "60",
+            "25"
+        ]
+    },
+    "A2": {
+        "Entry Run Number": [
+            "8",
+            "6"
+        ],
+        "Sequence Number (w\/i the entry run)": [
+            "14",
+            "4"
+        ],
+        "Record Identifier (A2)": [
+            "18",
+            "2"
+        ],
+        "Merchant Account Number": [
+            "20",
+            "16"
+        ],
+        "Transaction Code": [
+            "36",
+            "4"
+        ],
+        "Conjunction Ticket Number (MC\/VS)": [
+            "40",
+            "14"
+        ],
+        "Coupon Number (VS, MC)": [
+            "54",
+            "1"
+        ],
+        "Carrier Code (VS, MC)": [
+            "55",
+            "2"
+        ],
+        "Flight Number (VS, MC)": [
+            "57",
+            "5"
+        ],
+        "Service Class (VS, MC)": [
+            "62",
+            "2"
+        ],
+        "ORIG City\/Airport Code (VS)": [
+            "64",
+            "5"
+        ],
+        "Stop Over Code (VS, MC)": [
+            "69",
+            "1"
+        ],
+        "DEST City\/Airport Code (VS, MC)": [
+            "70",
+            "5"
+        ],
+        "Fare Basis Code (VS, MC)": [
+            "75",
+            "15"
+        ],
+        "Departure\/Travel Date (VS, MC)": [
+            "90",
+            "6"
+        ],
+        "Departure Time (VS, MC)": [
+            "96",
+            "4"
+        ],
+        "Arrival Time (VS, MC)": [
+            "100",
+            "4"
+        ],
+        "Departure Time Segment (MC)": [
+            "104",
+            "1"
+        ],
+        "Arrival Time Segment (MC)": [
+            "105",
+            "1"
+        ],
+        "Exchange Ticket (MC)": [
+            "106",
+            "15"
+        ],
+        "Fare Amount (MC)": [
+            "121",
+            "12"
+        ],
+        "Fee Amount (MC)": [
+            "133",
+            "9"
+        ],
+        "Taxes Amount (MC)": [
+            "142",
+            "9"
+        ],
+        "Endorsements\/Restrictions (MC)": [
+            "151",
+            "20"
+        ],
+        "Extension Indicator (VS, MC)": [
+            "171",
+            "2"
+        ]
+    },
+    "A1": {
+        "Entry Run Number": [
+            "8",
+            "6"
+        ],
+        "Sequence Number (w\/i the entry run)": [
+            "14",
+            "4"
+        ],
+        "Record Identifier (A1)": [
+            "18",
+            "2"
+        ],
+        "Merchant Account Number": [
+            "20",
+            "16"
+        ],
+        "Transaction Code": [
+            "36",
+            "4"
+        ],
+        "Multiple Clearing Sequence Number": [
+            "40",
+            "2"
+        ],
+        "Multiple Clearing Sequence Count": [
+            "42",
+            "2"
+        ],
+        "Passenger Name": [
+            "44",
+            "20"
+        ],
+        "Filler": [
+            "64",
+            "10"
+        ],
+        "Customer Code": [
+            "74",
+            "17"
+        ],
+        "Total Fare Amount": [
+            "91",
+            "12"
+        ],
+        "Total Tax Amount": [
+            "103",
+            "12"
+        ],
+        "National Tax Amount": [
+            "115",
+            "12"
+        ],
+        "Total Fee Amount": [
+            "127",
+            "12"
+        ],
+        "Currency Code Amount": [
+            "139",
+            "3"
+        ],
+        "Exchange Ticket Number": [
+            "142",
+            "13"
+        ],
+        "Exchange Ticket Amount": [
+            "155",
+            "12"
+        ],
+        "Travel Agency Code": [
+            "167",
+            "8"
+        ],
+        "Travel Agency Name": [
+            "175",
+            "25"
+        ],
+        "Ticket Number": [
+            "200",
+            "15"
+        ],
+        "Internet Indicator": [
+            "215",
+            "1"
+        ],
+        "Issue Date": [
+            "216",
+            "6"
+        ],
+        "Issuing Carrier": [
+            "222",
+            "4"
+        ],
+        "Restricted Ticket Indicator": [
+            "226",
+            "1"
+        ],
+        "Computerized Reservation System": [
+            "227",
+            "4"
+        ],
+        "Extension Indicator\nPossible value:\nVS MC": [
+            "231",
+            "2"
+        ]
+    },
+    "P2": {
+        "Entry Run Number": [
+            "8",
+            "6"
+        ],
+        "Sequence Number (w\/i the entry run)": [
+            "14",
+            "4"
+        ],
+        "Record Identifier (P2)": [
+            "18",
+            "2"
+        ],
+        "Merchant Account Number": [
+            "20",
+            "16"
+        ],
+        "Transaction Code": [
+            "36",
+            "4"
+        ],
+        "Discount Amount Indicator\nPossible value:\nY N": [
+            "59",
+            "1"
+        ],
+        "Discount Amount": [
+            "60",
+            "9"
+        ],
+        "Alternate Tax Identifier": [
+            "69",
+            "15"
+        ],
+        "Product Code (VS, MC)": [
+            "84",
+            "12"
+        ],
+        "Item Description": [
+            "99",
+            "35"
+        ],
+        "Item Quantity (VS, MC, AM)": [
+            "134",
+            "12"
+        ],
+        "Item Unit of Measure (VS, MC)": [
+            "146",
+            "12"
+        ],
+        "Unit Cost (VS, MC, AM)": [
+            "158",
+            "12"
+        ],
+        "Net\/Gross Indicator for Extended Amount": [
+            "170",
+            "1"
+        ],
+        "VAT Rate applied": [
+            "171",
+            "5"
+        ],
+        "VAT Type Applied\/VAT Rating": [
+            "176",
+            "4"
+        ],
+        "VAT Amount (MC, VS)": [
+            "180",
+            "12"
+        ],
+        "Debit\/Credit Indicator": [
+            "192",
+            "1"
+        ],
+        "Type of Supply": [
+            "193",
+            "2"
+        ],
+        "Extension Record Indicator (D)": [
+            "195",
+            "1"
+        ],
+        "Item Commodity Code": [
+            "196",
+            "12"
+        ],
+        "Line Item Total": [
+            "208",
+            "12"
+        ],
+        "Foreign key to ddf detail": [
+            "0",
+            "0"
+        ],
+        "Future": [
+            "220",
+            "381"
+        ]
+    },
+    "DR": {
+        "Entry Run Number": [
+            "8",
+            "6"
+        ],
+        "Sequence Number (w\/i the entry run)": [
+            "14",
+            "4"
+        ],
+        "Record Identifier (DR)": [
+            "18",
+            "2"
+        ],
+        "Merchant Account Number": [
+            "20",
+            "16"
+        ],
+        "Transaction Code": [
+            "36",
+            "4"
+        ],
+        "Purchase ID\/Direct Marketing ORD Number": [
+            "40",
+            "25"
+        ],
+        "Address Verification Service Response": [
+            "65",
+            "1"
+        ],
+        "Total Authorized Amount": [
+            "66",
+            "12"
+        ],
+        "Merchant Customer Service Phone Number": [
+            "78",
+            "13"
+        ],
+        "Mail\/Phone Installment Sequence Number": [
+            "91",
+            "2"
+        ],
+        "Mail\/Phone Installment Count": [
+            "93",
+            "2"
+        ],
+        "Extension Record Indicator (P1)": [
+            "95",
+            "2"
+        ],
+        "Future": [
+            "97",
+            "504"
+        ]
+    },
+    "CT": {
+        "Entry Run Number": [
+            "8",
+            "6"
+        ],
+        "Sequence Number (w\/i the entry run)": [
+            "14",
+            "4"
+        ],
+        "Record Identifier (CT)": [
+            "18",
+            "2"
+        ],
+        "Merchant Account Number": [
+            "20",
+            "16"
+        ],
+        "Transaction Code": [
+            "36",
+            "4"
+        ],
+        "Purchase Identifier": [
+            "40",
+            "25"
+        ],
+        "No Show Indicator": [
+            "65",
+            "1"
+        ],
+        "Extra Charge": [
+            "66",
+            "6"
+        ],
+        "Check Out Date (MMDDYY)": [
+            "72",
+            "6"
+        ],
+        "Market Specific Authorization Data Indicator": [
+            "78",
+            "1"
+        ],
+        "Total Authorized Amount": [
+            "79",
+            "12"
+        ],
+        "Renter Name": [
+            "91",
+            "40"
+        ],
+        "Return Location ID": [
+            "131",
+            "10"
+        ],
+        "Program Code": [
+            "141",
+            "2"
+        ],
+        "Rental Return Date (MMDDYY)": [
+            "143",
+            "6"
+        ],
+        "Daily Rental Rate": [
+            "149",
+            "9"
+        ],
+        "Weekly Rental Rate": [
+            "158",
+            "9"
+        ],
+        "Rate Per Mile": [
+            "167",
+            "6"
+        ],
+        "Adjustment Amount Indicator": [
+            "173",
+            "1"
+        ],
+        "Fuel Charges": [
+            "174",
+            "9"
+        ],
+        "Insurance Indicator": [
+            "183",
+            "1"
+        ],
+        "Insurance Charges": [
+            "184",
+            "9"
+        ],
+        "Car Class Code\/Rental Class": [
+            "193",
+            "2"
+        ],
+        "One Way Drop-Off Charges": [
+            "195",
+            "9"
+        ],
+        "Total Miles": [
+            "204",
+            "4"
+        ],
+        "Max Free Miles": [
+            "208",
+            "4"
+        ],
+        "Extension Record Indicator\nPossible value:\nON (VS) CT (MC)": [
+            "212",
+            "2"
+        ],
+        "Days Rented": [
+            "214",
+            "2"
+        ]
+    },
+    "FT": {
+        "Entry Run Number": [
+            "8",
+            "6"
+        ],
+        "Sequence Number (w\/i the entry run)": [
+            "14",
+            "4"
+        ],
+        "Record Identifier (FT)": [
+            "18",
+            "2"
+        ],
+        "Merchant Account Number": [
+            "20",
+            "16"
+        ],
+        "Transaction Code": [
+            "36",
+            "4"
+        ],
+        "Oil Company Brand Name": [
+            "40",
+            "4"
+        ],
+        "Merchant Street Address": [
+            "44",
+            "30"
+        ],
+        "Merchant Postal COD 1 and Extension": [
+            "74",
+            "9"
+        ],
+        "Purchase Time (HHMM 24-HR Clock)": [
+            "83",
+            "4"
+        ],
+        "VS Service Type\/MC Fuel Service Type": [
+            "87",
+            "1"
+        ],
+        "Motor Fuel Product Code": [
+            "88",
+            "3"
+        ],
+        "Unit Cost": [
+            "91",
+            "12"
+        ],
+        "Unit of Measure": [
+            "103",
+            "1"
+        ],
+        "Quantity": [
+            "104",
+            "12"
+        ],
+        "Gross Fuel Price": [
+            "116",
+            "12"
+        ],
+        "Net Fuel Price": [
+            "128",
+            "12"
+        ],
+        "Net Non Fuel Price": [
+            "140",
+            "12"
+        ],
+        "Odometer Reading": [
+            "152",
+            "7"
+        ],
+        "Vehicle Number": [
+            "159",
+            "17"
+        ],
+        "VS Cust Ref Identifier\/MC Driver": [
+            "176",
+            "17"
+        ],
+        "VS type of Purch\/MC Prod Type Code": [
+            "193",
+            "3"
+        ],
+        "Coupon\/Discount Amount": [
+            "196",
+            "5"
+        ],
+        "VS ST Fuel Tax\/MC Tax Amt 1": [
+            "201",
+            "12"
+        ],
+        "MC Tax Amount 2": [
+            "213",
+            "12"
+        ],
+        "Local Fuel Tax - Misc. Non-Fuel": [
+            "225",
+            "12"
+        ],
+        "VAT Tax Rate": [
+            "237",
+            "4"
+        ],
+        "Product Code 1": [
+            "241",
+            "2"
+        ],
+        "Product Code 2": [
+            "243",
+            "2"
+        ],
+        "Product Code 3": [
+            "245",
+            "2"
+        ],
+        "Product Code 4": [
+            "247",
+            "2"
+        ],
+        "Product Code 5": [
+            "249",
+            "2"
+        ],
+        "Product Code 6": [
+            "251",
+            "2"
+        ],
+        "Product Code 7": [
+            "253",
+            "2"
+        ],
+        "Product Code 8": [
+            "255",
+            "2"
+        ],
+        "VS Local Sales Tax\/MC Tax Amount 3": [
+            "257",
+            "12"
+        ],
+        "Local Tax Included": [
+            "269",
+            "1"
+        ],
+        "Gross Non-Fuel Price": [
+            "270",
+            "9"
+        ],
+        "Misc. Fuel Tax Exemption Status": [
+            "279",
+            "1"
+        ],
+        "Misc. Non-Fuel Tax Exemption Status": [
+            "280",
+            "1"
+        ]
+    },
+    "F2": {
+        "Entry Run Number": [
+            "8",
+            "6"
+        ],
+        "Sequence Number (w\/i the entry run)": [
+            "14",
+            "4"
+        ],
+        "Record Identifier (F2)": [
+            "18",
+            "2"
+        ],
+        "Merchant Account Number": [
+            "20",
+            "16"
+        ],
+        "Transaction Code": [
+            "36",
+            "4"
+        ],
+        "Product Code": [
+            "40",
+            "3"
+        ],
+        "Item Description": [
+            "43",
+            "35"
+        ],
+        "Item Quantity": [
+            "78",
+            "5"
+        ],
+        "VS Item Sequence Number\/MC Item Unit of Measure": [
+            "83",
+            "3"
+        ],
+        "Extended Item Amount": [
+            "86",
+            "9"
+        ],
+        "Discount Indicator": [
+            "95",
+            "1"
+        ],
+        "Discount Amount": [
+            "96",
+            "9"
+        ],
+        "Net\/Gross Indicator for EXT Item A": [
+            "105",
+            "1"
+        ],
+        "Tax Rate Applied": [
+            "106",
+            "5"
+        ],
+        "Tax Type Applied": [
+            "111",
+            "4"
+        ],
+        "Tax Amount": [
+            "115",
+            "9"
+        ],
+        "Debit\/Credit Indicator": [
+            "124",
+            "1"
+        ],
+        "VS Message ID\/MC Alternate Tax ID": [
+            "125",
+            "15"
+        ],
+        "Extension Record Indicator": [
+            "140",
+            "1"
+        ],
+        "Federal Excise Tax Exemption Status": [
+            "141",
+            "1"
+        ],
+        "Federal Non-Fuel Excise Tax": [
+            "142",
+            "12"
+        ],
+        "Federal Fuel Tax Exemption Status": [
+            "154",
+            "1"
+        ],
+        "Federal Fuel Excise Tax": [
+            "155",
+            "12"
+        ],
+        "State Motor Fuel Tax Exempt Status": [
+            "167",
+            "1"
+        ],
+        "State Motor Fuel Tax": [
+            "168",
+            "12"
+        ],
+        "County Fuel Tax Exemption Status": [
+            "180",
+            "1"
+        ],
+        "County Fuel Sales Tax": [
+            "181",
+            "12"
+        ],
+        "State and Local Tax Exempt Status": [
+            "193",
+            "1"
+        ],
+        "State and Local Sales Tax (Non-Fuel)": [
+            "194",
+            "12"
+        ],
+        "County Motor Fuel Tax Exempt Status": [
+            "206",
+            "1"
+        ],
+        "County Motor Fuel Sales Tax": [
+            "207",
+            "12"
+        ],
+        "City Sales Fuel Tax Exempt Status": [
+            "219",
+            "1"
+        ],
+        "City Sales Fuel Tax": [
+            "220",
+            "12"
+        ],
+        "City Motor Fuel Tax Exempt Status": [
+            "232",
+            "1"
+        ],
+        "City Motor Fuel Sales Tax": [
+            "233",
+            "12"
+        ],
+        "Secondary State Fuel Tax Exempt Status": [
+            "245",
+            "1"
+        ],
+        "Secondary State Fuel Tax": [
+            "246",
+            "12"
+        ],
+        "Reimbursement Attribute Code": [
+            "258",
+            "1"
+        ],
+        "Federal Sales Tax Exemption Status": [
+            "259",
+            "1"
+        ],
+        "Federal Sales Tax": [
+            "260",
+            "12"
+        ]
+    },
+    "TH": {
+        "Record Identifier (TH)": [
+            "18",
+            "2"
+        ],
+        "Posting Date (MMDDYY)": [
+            "40",
+            "6"
+        ],
+        "System Date (MMDDYY)": [
+            "46",
+            "6"
+        ],
+        "Transmit Bank": [
+            "52",
+            "4"
+        ]
+    },
+    "BH": {
+        "Entry Run Number": [
+            "8",
+            "6"
+        ],
+        "Sequence Number (w\/i the entry run)": [
+            "14",
+            "4"
+        ],
+        "Record Identifier (BH)": [
+            "18",
+            "2"
+        ],
+        "Merchant Account Number": [
+            "20",
+            "16"
+        ],
+        "Transaction Code": [
+            "36",
+            "4"
+        ],
+        "Batch Date (MMDDCCYY)": [
+            "40",
+            "8"
+        ],
+        "Batch Julian Date (DDDYY)": [
+            "48",
+            "5"
+        ],
+        "Net Deposit": [
+            "53",
+            "15"
+        ],
+        "Reject Reason": [
+            "68",
+            "4"
+        ],
+        "Merchant Reference Number": [
+            "72",
+            "16"
+        ],
+        "Batch Header Carry Indicator": [
+            "88",
+            "1"
+        ],
+        "Association Number": [
+            "89",
+            "6"
+        ],
+        "Merchant Bank Number": [
+            "95",
+            "4"
+        ],
+        "Debit\/Credit Indicator": [
+            "99",
+            "1"
+        ],
+        "ACH Posting Date (MMDDCCYY)": [
+            "100",
+            "8"
+        ]
+    },
+    "AD": {
+        "Entry Run Number": [
+            "8",
+            "6"
+        ],
+        "Sequence Number (w\/i the entry run)": [
+            "14",
+            "4"
+        ],
+        "Record Identifier (AD)": [
+            "18",
+            "2"
+        ],
+        "Merchant Account Number": [
+            "20",
+            "16"
+        ],
+        "Transaction Code": [
+            "36",
+            "4"
+        ],
+        "Reference Number": [
+            "40",
+            "11"
+        ],
+        "Adjustment Amount": [
+            "51",
+            "11"
+        ],
+        "Transaction Date (MMDDCCYY)": [
+            "62",
+            "8"
+        ],
+        "Carryover Indicator": [
+            "70",
+            "1"
+        ],
+        "Online Entry": [
+            "71",
+            "1"
+        ],
+        "ACH Flag": [
+            "72",
+            "1"
+        ],
+        "Batch Julian Date (DDDYY)": [
+            "73",
+            "5"
+        ],
+        "Reversal Flag": [
+            "78",
+            "1"
+        ],
+        "Debit\/Credit Indicator": [
+            "79",
+            "1"
+        ],
+        "Bank Number": [
+            "80",
+            "4"
+        ],
+        "Association Number": [
+            "84",
+            "6"
+        ],
+        "Posting Date (MMDDCCYY)": [
+            "90",
+            "8"
+        ],
+        "Chargeback Case Number": [
+            "98",
+            "13"
+        ],
+        "Future": [
+            "111",
+            "390"
+        ]
+    },
+    "TT": {
+        "EntryRunNumber": [
+            "8",
+            "6"
+        ],
+        "SequenceNumber(w\/itheentryrun)": [
+            "14",
+            "4"
+        ],
+        "RecordIdentifier(TT)": [
+            "18",
+            "2"
+        ],
+        "MerchantAccountNumber": [
+            "20",
+            "16"
+        ],
+        "TransactionCode": [
+            "36",
+            "4"
+        ],
+        "Number-Depositsales": [
+            "40",
+            "12"
+        ],
+        "DollarAmount-DepositSales": [
+            "52",
+            "15"
+        ],
+        "Number-DepositCredit": [
+            "67",
+            "12"
+        ],
+        "DollarAmount-DepositCredit": [
+            "79",
+            "15"
+        ],
+        "Number-CashAdvance": [
+            "94",
+            "12"
+        ],
+        "DollarAmount-CashAdvance": [
+            "106",
+            "15"
+        ],
+        "Number-NetDeposit": [
+            "121",
+            "12"
+        ],
+        "DollarAmount-NetDeposit": [
+            "133",
+            "15"
+        ],
+        "Number-MerchantAdjustment": [
+            "149",
+            "12"
+        ],
+        "DollarAmount-MerchantAdjustment": [
+            "161",
+            "15"
+        ],
+        "Number-DraftA": [
+            "177",
+            "12"
+        ],
+        "DollarAmount-DraftA": [
+            "189",
+            "15"
+        ],
+        "Number-NonFinancialDebit": [
+            "205",
+            "12"
+        ],
+        "DollarAmount-NonFinancialDebit": [
+            "217",
+            "15"
+        ],
+        "Number-NonFinancialCredit": [
+            "232",
+            "12"
+        ],
+        "DollarAmount-NonFinancialCredit": [
+            "244",
+            "15"
+        ],
+        "Reservedforfutureuse": [
+            "259",
+            "342"
+        ]
+    },
+    "LG": {
+        "Undefined": [
+            "262",
+            "339"
+        ]
+    },
+    "CK": {
+        "Undefined": [
+            "114",
+            "487"
+        ]
+    }
+}
